@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".quiz"
+    android:background="@drawable/ayoub">
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Salut ts l monde!"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#37E9BB"
+        android:id="@+id/cmpt"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Question"
+        android:textColor="@color/white"
+        android:text="Salut ts l monde!"
+        android:layout_marginStart="50dp"
+        />
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="50dp"
+        >
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            android:id="@+id/btnOp1"
+            android:layout_marginTop="50dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+            android:textColor="#32167C"
+            />
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Non"
+            android:id="@+id/btnOp2"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:elevation="4dp"
+            android:textColor="#32167C"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnNext"
+        android:textColor="@color/black"
+        android:text="Next"
+        android:layout_gravity="center"
+        app:cardCornerRadius="50dp"
+        />
+
+</LinearLayout>

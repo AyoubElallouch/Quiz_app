@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ayoub"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="45dp"
+        android:textColor="#37E9BB"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rrrr"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="100dp"
+
+        >
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Final score is"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="75dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@drawable/ccc"
+            />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="175dp"
+            android:text="50"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        >
+        <Button
+            android:layout_marginStart="25dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/btntryagain"
+            android:text="Try Again"
+            android:layout_marginVertical="10dp"
+            />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Micro"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/btnmic"
+                />
+            <Button
+                android:layout_marginStart="50dp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Map"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/btnmap"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

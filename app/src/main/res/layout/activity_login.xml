@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ayoub"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginVertical="30dp"
+            android:layout_marginTop="50dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etLogin"
+            android:hint="login"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="250dp"
+            android:textColorHint="#6946FD"
+            android:textColor="#37E9BB"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="Mot de passe"
+            android:textColorHint="#6946FD"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#37E9BB"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:text="Login"
+            android:layout_marginVertical="10dp"
+            android:layout_marginTop="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRegister"
+            android:text="To register click here"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            />
+
+
+
+    </LinearLayout >
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
